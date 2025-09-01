@@ -10,6 +10,7 @@ jobs:
       contents: read
       pull-requests: write
       id-token: write
+      user: read
     steps:
       - uses: actions/checkout@v4
         with:
